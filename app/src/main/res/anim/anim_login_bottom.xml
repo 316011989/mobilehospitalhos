@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fillAfter="true"
+    android:interpolator="@android:anim/decelerate_interpolator">
+
+    <!--自下到上 渐变-->
+
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="100%"
+        android:toXDelta="0"
+        android:toYDelta="0" />
+
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+    <!--有三种动画插入器:
+    accelerate_decelerate_interpolator   加速-减速 动画插入器
+    accelerate_interpolator               加速-动画插入器
+    decelerate_interpolator               减速- 动画插入器-->
+
+</set>

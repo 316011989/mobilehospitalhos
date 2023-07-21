@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--圆形-->
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+        <attr name="border_overlay" format="boolean" />
+    </declare-styleable>
+
+    <!--波浪-->
+    <declare-styleable name="WaveView">
+        <attr name="wave_Type" format="enum">
+            <enum name="SIN" value="0" />
+            <enum name="COS" value="1" />
+        </attr>
+        <attr name="wave_FillType" format="enum">
+            <enum name="TOP" value="0" />
+            <enum name="BOTTOM" value="1" />
+        </attr>
+
+        <attr name="wave_Amplitude" format="dimension" /><!--振幅-->
+        <attr name="wave_Color" format="color" /><!--曲线一下的颜色-->
+        <attr name="wave_Speed" format="float" /><!--移动的速度-->
+        <attr name="wave_StartPeriod" format="float" /><!--周期-->
+        <attr name="wave_Start" format="boolean" /><!--是否自动开启-->
+    </declare-styleable>
+
+    <!--利用轮播做上下翻页-->
+    <declare-styleable name="BannerLayoutView">
+        <attr name="interval" format="integer" />
+        <attr name="showIndicator" format="boolean" />
+        <attr name="orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+        <attr name="autoPlaying" format="boolean" />
+        <attr name="itemSpace" format="integer" />
+        <attr name="centerScale" format="float" />
+        <attr name="moveSpeed" format="float" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <!-- 这里是背景的颜色 -->
+    <solid android:color="@color/line_blue" />
+
+    <corners android:radius="3dp" />
+
+    <!--<stroke
+        android:width="0.5dp"
+        android:color="#fbfbfa" />-->
+
+    <!--<padding-->
+        <!--android:bottom="2dp"-->
+        <!--android:left="4dp"-->
+        <!--android:right="4dp"-->
+        <!--android:top="2dp" />-->
+
+</shape>

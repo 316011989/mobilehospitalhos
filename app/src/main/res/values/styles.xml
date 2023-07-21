@@ -1,0 +1,92 @@
+<resources>
+
+<!--    <style name="AppBaseTheme" parent="@android:style/Theme.Light.NoTitleBar"></style>-->
+    <style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light.NoActionBar">
+        <!-- 应用中添加禁用多点触控，防止应用同时点击多个控件执行多个方法，（在父xml布局中添加android:splitMotionEvents="false"可单个页面控制） -->
+        <item name="android:windowEnableSplitTouch">false</item>
+        <item name="android:splitMotionEvents">false</item>
+
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+<!--        &lt;!&ndash; 应用中添加禁用多点触控，防止应用同时点击多个控件执行多个方法，（在父xml布局中添加android:splitMotionEvents="false"可单个页面控制） &ndash;&gt;-->
+<!--        <item name="android:windowEnableSplitTouch">false</item>-->
+<!--        <item name="android:splitMotionEvents">false</item>-->
+    </style>
+
+    <!--该主题是把启动APP时出现的白屏去掉，设置window背景，
+    但添加 <item name="android:windowIsTranslucent">true</item>
+    属性会导致点击按钮出现透明，搁置一段时间之后才进应用，所以去掉就好啦
+    直接在页面设置主题
+    -->
+<!--    <style name="Splash" parent="AppBaseTheme">-->
+<!--        <item name="android:windowFullscreen">true</item>-->
+<!--        <item name="android:windowBackground">@drawable/splash</item>-->
+<!--    </style>-->
+
+    <!--<style name="Splash" parent="@style/AppBaseTheme">&ndash;&gt;
+        <item name="android:windowBackground">@mipmap/lauch</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>-->
+
+    <style name="Popupwindow">
+        <item name="android:windowEnterAnimation">@anim/window_out</item>
+        <item name="android:windowExitAnimation">@anim/window_back</item>
+    </style>
+
+    <style name="popupwindow_anim_style_search">
+        <!-- 指定显示的动画xml -->
+        <item name="android:windowEnterAnimation">@anim/pop_in</item>
+        <!-- 指定消失的动画xml -->
+        <item name="android:windowExitAnimation">@anim/pop_out</item>
+    </style>
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+    <!--让弹框透明-->
+    <style name="TransparentDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/transparent2</item>
+    </style>
+
+    <!--让activity背景透明-->
+    <style name="Transparent">
+        <item name="android:windowBackground">@color/black_halftrans</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+    </style>
+
+<!--    扫描二维码-->
+    <style name="AppThemeNoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
