@@ -21,7 +21,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="检伤分类"
+            android:text="后送任务"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="检伤列表"
+            android:text=" 后送登记"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />
@@ -69,7 +69,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="缓存列表"
+            android:text="后送分派"
             android:textColor="@color/white"
             android:textSize="16sp"
             android:textStyle="bold" />

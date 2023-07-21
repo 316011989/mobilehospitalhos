@@ -22,10 +22,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.zyl.mobilehospitalhis.ui.CheckFormActivity" />
-        <activity android:name="com.zyl.mobilehospitalhis.ui.CheckListActivity" />
-        <activity android:name="com.zyl.mobilehospitalhis.ui.ChoiceOptActivity" />
-        <activity android:name="com.zyl.mobilehospitalhis.ui.CheckListCacheActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.ui.CheckFormActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.ui.CheckListActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.ui.ChoiceOptActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.ui.CheckListCacheActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.hosui.HouSongTaskActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.hosui.HouSongRegistActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.hosui.HouSongManageActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.hosui.HouSongTaskDetailActivity" />
+        <activity android:name="com.zyl.mobilehospitalhos.hosui.HouSongTaskDispatchActivity" />
     </application>
 
 </manifest>

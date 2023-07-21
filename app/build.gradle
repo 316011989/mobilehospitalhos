@@ -4,15 +4,15 @@ plugins {
 }
 
 android {
-    namespace 'com.zyl.mobilehospitalhis'
+    namespace 'com.zyl.mobilehospitalhos'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.zyl.mobilehospitalhis"
+        applicationId "com.zyl.mobilehospitalhos"
         minSdk 21
         targetSdk 33
         versionCode 1
-        versionName "3.0"
+        versionName "3.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
